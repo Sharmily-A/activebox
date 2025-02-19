@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans">
+    <head>
+        <!---Header Start-->
+        <div  class=" bg-[url('image/ActiveBox.jpg')] min-h-96 overflow-hidden  duration-1000">
+            <div class="container mx-auto md:px-[120px] px-4">
+                <div class=" border-b-[1px] border-r-[1px] border-l-[1px] border-[#494c61]">
+                    <nav class="relative px-4 py-4 flex justify-between ">
+                        <a class="text-3xl font-bold leading-none" href="#">
+                           <img src="image/ActiveBox.png" alt="">
+                        </a>
+                        <div class="lg:hidden">
+                            <button class="navbar-burger flex items-center text-[#FFFFFF] p-3">
+                                <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <title>Mobile menu</title>
+                                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <ul class="font-bold hidden absolute top-1/2 left-1/2 transform -translate-y-1/2  lg:flex lg:mx-auto  lg:items-center lg:w-auto lg:space-x-6">
+                            <li><a class="text-md text-[#FFFFFF] hover:text-gray-500 duration-300" href="#">Features</a></li>
+                            
+                            <li><a class="text-md text-[#FFFFFF] hover:text-gray-500 duration-300" href="#">Works</a></li>
+                            
+                            <li><a class="text-md text-[#FFFFFF] hover:text-gray-500 duration-300" href="#">Our Team</a></li>
+                            
+                            <li><a class="text-md text-[#FFFFFF] hover:text-gray-500 duration-300" href="#">Testimonials</a></li>
+                            
+                            <li><a class="text-md text-[#FFFFFF] hover:text-gray-500 duration-300" href="#">Download</a></li>
+                        </ul>
+                    </nav>
+                    <!---Mobile Responsive start-->
+                    <div class="navbar-menu relative z-50 hidden">
+                        <div class="navbar-backdrop fixed inset-0  opacity-25 "></div>
+                        <nav class="fixed  top-0 left-0 bottom-0  flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+                            <div class="flex items-center mb-8 ">
+                                <a class="mr-auto text-3xl font-bold leading-none bg-[#292d48]
+                                px-[10px] py-[10px] rounded" href="#">
+                                    <img src="image/ActiveBox.png" alt="">
+                                </a>
+                                <button class="navbar-close">
+                                    <svg class="h-6 w-6 text-[#292d48] cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="mb-1">
+                                        <a class="block p-4 text-md font-semibold text-gray-400 hover:bg-blue-50 hover:text-[#292d48] rounded duration-300" href="#">Features</a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a class="block p-4 text-md font-semibold text-gray-400 hover:bg-blue-50 hover:text-[#292d48] rounded duration-300" href="#">Works</a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a class="block p-4 text-md font-semibold text-gray-400 hover:bg-blue-50 hover:text-[#292d48] rounded duration-300" href="#">Our Team</a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a class="block p-4 text-md font-semibold text-gray-400 hover:bg-blue-50 hover:text-[#292d48] rounded duration-300" href="#">Testimonials</a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a class="block p-4 text-md font-semibold text-gray-400 hover:bg-blue-50 hover:text-[#292d48] rounded duration-300" href="#">Download</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!---Mobile Responsive end-->
+                </div>
+                <div class="header-text overflow-hidden text-[#FFFFFF] text-center pb-[100px]">
+                    <h1 class="lg:text-[56px] sm:text-[36px] text-[26px] font-bold text-center pt-[86px] ">Your Favorite One Page <br>
+                        Multi Purpose Template  <span id="element"></span>
+                    </h1>
+                    <p class="lg:text-[18px] text-[14px] text-center animate-heartbeat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna <br>
+                        vel scelerisque nisl consectetur et. </p>
+                        
+
+                    <button id="header" class="py-[15px] px-[40px] bg-[#74787f] rounded mt-[50px]  duration-1000" >Find Out More</button>
+                        
+                </div>
+            </div>
+        </div>
+        <!---Header end-->
+    </head>
+    <main>
+        <div class="bg-[#FFFFFF]  ">
+            <div class="container mx-auto md:px-[120px] px-4 py-[60px]">
+                <div class="lg:columns-3 text-center py-[40px]">
+                    <div class="py-[20px]">
+                        <img class=" pb-[20px] m-auto " src="image/pen.png" alt="">
+                        <h4  class="py-[10px] text-[24px] text-[#2c3033]">Easily Customised</h4>
+                        <p class="text-[#74787f]">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                    <div class="py-[20px]">
+                        <img class=" pb-[20px] m-auto" src="image/computer.png" alt="">
+                        <h4  class="py-[10px] text-[24px] text-[#2c3033]">Responsive REady</h4>
+                        <p class="text-[#74787f]">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                    <div class="py-[20px]">
+                        <img class=" pb-[20px] m-auto" src="image/Light.png" alt="">
+                        <h4  class="py-[10px] text-[24px] text-[#2c3033]">Modern Design</h4>
+                        <p class="text-[#74787f]">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="lg:columns-3 py-[40px] text-center">
+                    <div class="py-[20px]">
+                        <a href=""><img class=" pb-[20px] m-auto" src="image/code.png" alt=""></a>
+                        <h4 class="py-[10px] text-[24px] text-[#2c3033]">Clean Code</h4>
+                        <p class="text-[#74787f]">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                    <div class="py-[20px]">
+                        <img class=" pb-[20px] m-auto" src="image/beg.png" alt="">
+                        <h4  class="py-[10px] text-[24px] text-[#2c3033]">Ready to Ship</h4>
+                        <p class="text-[#74787f]">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                    <div class="py-[20px]">
+                        <img class=" pb-[20px] m-auto" src="image/sky.png" alt="">
+                        <h4  class="py-[10px] text-[24px] text-[#2c3033]">Download for Free</h4>
+                        <p class="text-[#74787f]">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gellery py-[40px]">
+            <div class="lg:flex columns-1 ">
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="w-[100%]  h-auto">
+                        <img class="w-[100%]  mx-[1px]  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="image/work-1.jpg" alt="" />
+                    </div>
+                    <div class="absolute inset-0   group-hover:bg-[#de4641] opacity-[.67]"></div>
+                    <div class="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-1000 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Project Name</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="w-[100%] h-auto ">
+                        <img class="w-[100%] mx-[1px] transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="image/work-2.jpg" alt="" />
+                    </div>
+                    <div class="absolute inset-0   group-hover:bg-[#de4641] opacity-[.67]"></div>
+                    <div class="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-1000 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Project Name</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="w-[100%] h-auto ">
+                        <img class="w-[100%] mx-[1px]  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="image/work-3.jpg" alt="" />
+                    </div>
+                    <div class="absolute inset-0   group-hover:bg-[#de4641] opacity-[.67]"></div>
+                    <div class="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-1000 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Project Name</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">User Interface Design</p>
+                    </div>
+                </div> 
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="w-[100%] h-auto">
+                        <img class="w-[100%]  mx-[1px]  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="image/work-4.jpg" alt="" />
+                    </div>
+                    <div class="absolute inset-0   group-hover:bg-[#de4641] opacity-[.67]"></div>
+                    <div class="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-1000 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Project Name</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">User Interface Design</p>
+                    </div>
+                </div> 
+            </div>       
+            
+            <div class="lg:flex columns-1 my-[1px]">
+                <div class="group relative cursor-pointer  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="w-[100%] h-auto">
+                        <img class="w-[100%] mx-[1px] transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="image/work-5.jpg" alt="" />
+                    </div>
+                    <div class="absolute inset-0   group-hover:bg-[#de4641] opacity-[.67]"></div>
+                    <div class="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-1000 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Project Name</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="w-[100%] h-auto">
+                        <img class="w-[100%]  mx-[1px] transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="image/work-6.jpg" alt="" />
+                    </div>
+                    <div class="absolute inset-0   group-hover:bg-[#de4641] opacity-[.67]"></div>
+                    <div class="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-1000 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Project Name</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="w-[100%] h-auto">
+                        <img class="w-[100%]  mx-[1px] transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="image/work-7.jpg" alt="" />
+                    </div>
+                    <div class="absolute inset-0   group-hover:bg-[#de4641] opacity-[.67]"></div>
+                    <div class="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-1000 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Project Name</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">User Interface Design</p>
+                    </div>
+                </div> 
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="w-[100%] h-auto">
+                        <img class="w-[100%] mx-[1px]  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="image/work-8.jpg" alt="" />
+                    </div>
+                    <div class="absolute inset-0   group-hover:bg-[#de4641] opacity-[.67]"></div>
+                    <div class="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-1000 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Project Name</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">User Interface Design</p>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+        <div class="client ">
+            <div class="container mx-auto md:px-[120px] px-4 py-[60px]">
+                <div class=" lg:columns-4 md:columns-2 columns-1">
+                    <div class="overflow-hidden ">
+                        <img class="grayscale hover:grayscale-0" src="image/founder.jpg" alt="">
+                        <h4 class="text-[24px] text-[#585b5c] pt-[20px]">Ruth Woods</h4>
+                        <h6 class="text-[20px] text-[#ec6969] pb-[20px]">Founder, CEO</h6>
+                        <p class="text-gray-500 text-[18px] pb-[20px]">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <ul class="flex overflow-hidden">
+                            <li class=" mx-[5px] py-[10px] px-[12px] border border-gray-500"><a class="text-gray-500 hover:text-orange-600" aria-label="Visit TrendyMinds Facebook" href="" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="h-5">
+                                <path fill="currentColor"
+                                    d="m279.14 288 14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class=" mx-[5px] p-[10px] border border-gray-500">
+                                <a class="text-gray-500 hover:text-orange-600" aria-label="Visit TrendyMinds Twitter" href="" target="_blank"><svg
+                                    class="h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mx-[5px] p-[10px] border border-gray-500">
+                                <a href="" aria-label="Find us on LinkedIn"
+                                    target="_blank" rel="noopener">
+                                    <svg class="h-5 w-5 text-gray-500 hover:text-orange-600" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M44.45 0H3.55A3.5 3.5 0 0 0 0 3.46v41.07A3.5 3.5 0 0 0 3.54 48h40.9A3.51 3.51 0 0 0 48 44.54V3.46A3.5 3.5 0 0 0 44.45 0Zm-30.2 40.9H7.11V18h7.12v22.9Zm-3.57-26.03a4.13 4.13 0 1 1-.02-8.26 4.13 4.13 0 0 1 .02 8.26ZM40.9 40.9H33.8V29.77c0-2.66-.05-6.08-3.7-6.08-3.7 0-4.27 2.9-4.27 5.89V40.9h-7.1V18h6.82v3.12h.1c.94-1.8 3.26-3.7 6.72-3.7 7.21 0 8.54 4.74 8.54 10.91V40.9Z" fill="currentColor"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="overflow-hidden  my-[20px]">
+                        <img class="grayscale hover:grayscale-0" src="image/founder2.jpg" alt="">
+                        <h4 class="text-[24px] text-[#585b5c] pt-[20px]">Timothy Reed</h4>
+                        <h6 class="text-[20px] text-[#ec6969] pb-[20px]">Co-Founder, Developer</h6>
+                        <p class="text-gray-500 text-[18px] pb-[20px]">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <ul class="flex ">
+                            <li class="mx-[5px] py-[10px] px-[12px] border border-gray-500"><a class="text-gray-500 hover:text-orange-600" aria-label="Visit TrendyMinds Facebook" href="" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="h-5">
+                                <path fill="currentColor"
+                                    d="m279.14 288 14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mx-[5px] p-[10px] border border-gray-500">
+                                <a class="text-gray-500 hover:text-orange-600" aria-label="Visit TrendyMinds Twitter" href="" target="_blank"><svg
+                                    class="h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mx-[5px] p-[10px] border border-gray-500">
+                                <a href="" aria-label="Find us on LinkedIn"
+                                    target="_blank" rel="noopener">
+                                    <svg class="h-5 w-5 text-gray-500 hover:text-orange-600" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M44.45 0H3.55A3.5 3.5 0 0 0 0 3.46v41.07A3.5 3.5 0 0 0 3.54 48h40.9A3.51 3.51 0 0 0 48 44.54V3.46A3.5 3.5 0 0 0 44.45 0Zm-30.2 40.9H7.11V18h7.12v22.9Zm-3.57-26.03a4.13 4.13 0 1 1-.02-8.26 4.13 4.13 0 0 1 .02 8.26ZM40.9 40.9H33.8V29.77c0-2.66-.05-6.08-3.7-6.08-3.7 0-4.27 2.9-4.27 5.89V40.9h-7.1V18h6.82v3.12h.1c.94-1.8 3.26-3.7 6.72-3.7 7.21 0 8.54 4.74 8.54 10.91V40.9Z" fill="currentColor"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="overflow-hidden  my-[20px]">
+                        <img class="grayscale hover:grayscale-0" src="image/founder3.jpg" alt="">
+                        <h4 class="text-[24px] text-[#585b5c] pt-[20px]">Victoria Valdez</h4>
+                        <h6 class="text-[20px] text-[#ec6969] pb-[20px]">UI Designer</h6>
+                        <p class="text-gray-500 text-[18px] pb-[20px]">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <ul class="flex ">
+                            <li class="mx-[5px] py-[10px] px-[12px] border border-gray-500"><a class="text-gray-500 hover:text-orange-600" aria-label="Visit TrendyMinds Facebook" href="" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="h-5">
+                                <path fill="currentColor"
+                                    d="m279.14 288 14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mx-[5px] p-[10px] border border-gray-500">
+                                <a class="text-gray-500 hover:text-orange-600" aria-label="Visit TrendyMinds Twitter" href="" target="_blank"><svg
+                                    class="h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mx-[5px] p-[10px] border border-gray-500">
+                                <a href="" aria-label="Find us on LinkedIn"
+                                    target="_blank" rel="noopener">
+                                    <svg class="h-5 w-5 text-gray-500 hover:text-orange-600" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M44.45 0H3.55A3.5 3.5 0 0 0 0 3.46v41.07A3.5 3.5 0 0 0 3.54 48h40.9A3.51 3.51 0 0 0 48 44.54V3.46A3.5 3.5 0 0 0 44.45 0Zm-30.2 40.9H7.11V18h7.12v22.9Zm-3.57-26.03a4.13 4.13 0 1 1-.02-8.26 4.13 4.13 0 0 1 .02 8.26ZM40.9 40.9H33.8V29.77c0-2.66-.05-6.08-3.7-6.08-3.7 0-4.27 2.9-4.27 5.89V40.9h-7.1V18h6.82v3.12h.1c.94-1.8 3.26-3.7 6.72-3.7 7.21 0 8.54 4.74 8.54 10.91V40.9Z" fill="currentColor"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="overflow-hidden  my-[20px]">
+                        <img class="grayscale hover:grayscale-0" src="image/founder4.jpg" alt="">
+                        <h4 class="text-[24px] text-[#585b5c] pt-[20px]">Beverly Little</h4>
+                        <h6 class="text-[20px] text-[#ec6969] pb-[20px]">Data Scientist</h6>
+                        <p class="text-gray-500 text-[18px] pb-[20px]">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <ul class="flex ">
+                            <li class="mx-[10px] py-[10px] px-[12px] border border-gray-500"><a class="text-gray-500 hover:text-orange-600" aria-label="Visit TrendyMinds Facebook" href="" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="h-5">
+                                <path fill="currentColor"
+                                    d="m279.14 288 14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mx-[5px] p-[10px] border border-gray-500">
+                                <a class="text-gray-500 hover:text-orange-600" aria-label="Visit TrendyMinds Twitter" href="" target="_blank"><svg
+                                    class="h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mx-[5px]  p-[10px] border border-gray-500">
+                                <a href="" aria-label="Find us on LinkedIn"
+                                target="_blank" rel="noopener">
+                                <svg class="h-5 w-5 text-gray-500 hover:text-orange-600" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M44.45 0H3.55A3.5 3.5 0 0 0 0 3.46v41.07A3.5 3.5 0 0 0 3.54 48h40.9A3.51 3.51 0 0 0 48 44.54V3.46A3.5 3.5 0 0 0 44.45 0Zm-30.2 40.9H7.11V18h7.12v22.9Zm-3.57-26.03a4.13 4.13 0 1 1-.02-8.26 4.13 4.13 0 0 1 .02 8.26ZM40.9 40.9H33.8V29.77c0-2.66-.05-6.08-3.7-6.08-3.7 0-4.27 2.9-4.27 5.89V40.9h-7.1V18h6.82v3.12h.1c.94-1.8 3.26-3.7 6.72-3.7 7.21 0 8.54 4.74 8.54 10.91V40.9Z" fill="currentColor"></path>
+                                </svg>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="owner py-[60px]">
+            <div class="sm:flex columns-1 overflow-hidden">
+                <div class="w-[100%]  bg-[url('image/client.jpg')] min-h-96 overflow-hidden bg-cover bg-center">
+                    
+                </div>
+                <div class="w-[100%] ">
+                    <div id="default-carousel" class="relative " data-carousel="static">
+                        <!-- Carousel wrapper -->
+                        <div class="overflow-hidden relative min-h-96 text-[#FFFFFF] ">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-700 ease-in-out bg-[#52354b]" data-carousel-item>
+                                <div class="lg:mx-[60px] mx-[20px]">
+                                    <h2 class="lg:mt-[100px] mt-[40px] text-[24px]">“Integer posuere erat a ante <br>venenatis dapibus posuere velit <br>aliquet. Donec sed odio dui. Aenean <br> eu leo quam...”</h2>
+                                    <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                                
+                            </div>
+                            <div class="hidden duration-700 ease-in-out bg-[#ec6969]" data-carousel-item>
+                                <div class="mx-[60px]">
+                                    <h2 class="lg:mt-[100px] mt-[40px] text-[24px]">“Integer posuere erat a ante <br>venenatis dapibus posuere velit <br>aliquet. Donec sed odio dui. Aenean <br> eu leo quam...”</h2>
+                                    <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                                
+                            </div>
+                            <div class="hidden duration-700 ease-in-out bg-[#74787f]" data-carousel-item>
+                                <div class="mx-[60px]">
+                                    <h2 class="lg:mt-[100px] mt-[40px] text-[24px]">“Integer posuere erat a ante <br>venenatis dapibus posuere velit <br>aliquet. Donec sed odio dui. Aenean <br> eu leo quam...”</h2>
+                                    <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                                
+                            </div>
+                            <div class="hidden duration-700 ease-in-out bg-[#2c3033]" data-carousel-item>
+                                <div class="mx-[60px]">
+                                    <h2 class="lg:mt-[100px] mt-[40px] text-[24px]">“Integer posuere erat a ante <br>venenatis dapibus posuere velit <br>aliquet. Donec sed odio dui. Aenean <br> eu leo quam...”</h2>
+                                    <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                                
+                            </div>
+                            <div class="hidden duration-700 ease-in-out bg-[#de4641]" data-carousel-item>
+                                <div class="mx-[60px]">
+                                    <h2 class="lg:mt-[100px] mt-[40px] text-[24px]">“Integer posuere erat a ante <br>venenatis dapibus posuere velit <br>aliquet. Donec sed odio dui. Aenean <br> eu leo quam...”</h2>
+                                    <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                                
+                            </div>
+                            <div class="hidden duration-700 ease-in-out bg-[#313455]" data-carousel-item>
+                                <div class="mx-[60px]">
+                                    <h2 class="lg:mt-[100px] mt-[40px] text-[24px]">“Integer posuere erat a ante <br>venenatis dapibus posuere velit <br>aliquet. Donec sed odio dui. Aenean <br> eu leo quam...”</h2>
+                                    <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                                
+                            </div>
+                            <div class="hidden duration-700 ease-in-out bg-[#494c61]" data-carousel-item>
+                                <div class="mx-[60px]">
+                                    <h2 class="lg:mt-[100px] mt-[40px] text-[24px]">“Integer posuere erat a ante <br>venenatis dapibus posuere velit <br>aliquet. Donec sed odio dui. Aenean <br> eu leo quam...”</h2>
+                                    <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Slider indicators -->
+                        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2 ">
+                            <button type="button" class="w-3 h-3 rounded-full text-[#FFFFFF]" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 7" data-carousel-slide-to="6"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="free py-[60px]">
+            <div class="container mx-auto md:px-[120px] px-4 py-[60px]  text-center">
+                <h2 class="text-[36px]">Are You Ready to Start? Download Now For Free!</h2>
+                <h6 class="text-[18px] pb-[20px]">Fusce dapibus, tellus ac cursus commodo</h6>
+                <button class="text-[#FFFFFF] bg-[#e94546] py-[12px] px-[40px] hover:text-[#e94546] hover:bg-[#FFFFFF] hover:border-[#e94546] hover:border-[1px] duration-1000">Download Here</button>
+            </div>
+        </div>
+        <div class="bg-[#3a3e64] py-[60px]">
+            <div class="container mx-auto md:px-[120px] px-4 py-[60px] text-[#FFFFFF] md:columns-3 columns-1 text-center overflow-hidden">
+                <div class=" overflow-hidden">
+                    <h6>Location</h6>
+                    <p class="text-[14px]">3481 Melrose Place <br>
+                        Beverly Hills, CA 90210
+                    </p>   
+                            
+                </div>
+                <div class=" overflow-hidden my-[20px]">
+                    <h6 class="pb-[20px]">Share with Love</h6>
+                    <ul class="flex overflow-hidden justify-center">
+                        <li class=" mx-[5px] py-[10px] px-[12px] border border-[#FFFFFF]"><a class="text-[#FFFFFF] hover:text-orange-600" aria-label="Visit TrendyMinds Facebook" href="" target="_blank"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="h-3">
+                            <path fill="currentColor"
+                                d="m279.14 288 14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                            </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class=" mx-[5px] p-[10px] border border-[#FFFFFF]">
+                            <a class="text-[#FFFFFF] hover:text-orange-600" aria-label="Visit TrendyMinds Twitter" href="" target="_blank"><svg
+                                class="h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mx-[5px] p-[10px] border border-[#FFFFFF]">
+                            <a href="" aria-label="Find us on LinkedIn"
+                                target="_blank" rel="noopener">
+                                <svg class="h-3 w-3 text-[#FFFFFF] hover:text-orange-600" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M44.45 0H3.55A3.5 3.5 0 0 0 0 3.46v41.07A3.5 3.5 0 0 0 3.54 48h40.9A3.51 3.51 0 0 0 48 44.54V3.46A3.5 3.5 0 0 0 44.45 0Zm-30.2 40.9H7.11V18h7.12v22.9Zm-3.57-26.03a4.13 4.13 0 1 1-.02-8.26 4.13 4.13 0 0 1 .02 8.26ZM40.9 40.9H33.8V29.77c0-2.66-.05-6.08-3.7-6.08-3.7 0-4.27 2.9-4.27 5.89V40.9h-7.1V18h6.82v3.12h.1c.94-1.8 3.26-3.7 6.72-3.7 7.21 0 8.54 4.74 8.54 10.91V40.9Z" fill="currentColor"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" overflow-hidden">
+                    <h6>About ActiveBox</h6>
+                    <p class="text-[14px]">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec <br> ullamcorper nulla non metus auctor fringilla.</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="bg-[#313455] py-[60px]">
+            <div class="container mx-auto md:px-[120px] px-4 text-center">
+                <p class="text-[14px] text-gray-500 ">Copyright © 2015 ActiveBox. All Rights Reserved <br>
+                Made with<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 m-auto inline text-[#e84644]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                      </svg>
+                      <span class="text-[#FFFFFF] font-bold">by Kamal Chaneman</span></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Cookie banner start -->
+    <div class="max-w-3xl mx-auto px-8 md:px-12 lg:px-32 flex flex-col justify-center ">
+      <div id="cookie-banner"
+            role="dialog"
+            aria-labelledby="cookieBannerTitle"
+            aria-describedby="cookieBannerDesc"
+            class="fixed inset-0 flex items-center justify-center bg-blue-50 bg-opacity-50">
+            
+            <div class="mx-auto p-8 lg:p-10 bg-white rounded-3xl ring-1 ring-gray-200 shadow-2xl max-w-lg text-center">
+                <h2
+                    id="cookieBannerTitle"
+                    class="text-2xl font-medium mt-8">
+                    Our website uses cookies
+                </h2>
+                <p
+                    id="cookieBannerDesc"
+                    class="mt-4 text-gray-500">
+                    Our website uses cookies. By continuing, we assume your permission
+                    to deploy cookies as detailed in our
+                    <a
+                    href="#"
+                    class="underline hover:text-orange-600 text-black"
+                    >Privacy Policy.</a
+                    >
+                </p>
+                
+                <div class="mt-8">
+                    <button
+                    id="accept-cookies"
+                    class="rounded-full bg-orange-600 px-8 py-2 h-12 text-sm font-semibold text-white hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
+                    Accept all cookies
+                    </button>
+                </div>
+                <div class="mt-4">
+                    <a
+                    href="#"
+                    class="text-sm text-orange-600 hover:text-orange-500"
+                    >Manage cookies</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
+
+  
